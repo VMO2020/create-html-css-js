@@ -1,0 +1,110 @@
+/* Variables */
+:root {
+	--dark: black;
+	--light: white;
+	--main: blue;
+	--alert: orange;
+	--html: grey;
+}
+
+/* General */
+
+html {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem; /* 16px */
+	font-weight: 400;
+	line-height: 1.6;
+	letter-spacing: 0.01em;
+	margin: 0 auto;
+	scroll-behavior: smooth;
+	background-color: var(--html);
+}
+
+body {
+	min-width: 320px;
+	max-width: 1280px;
+	min-height: 100svh;
+	margin: 0 auto;
+	background-color: var(--light);
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Fonts */
+
+h1 {
+	font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
+/* Buttons & Links */
+a {
+	font-size: clamp(0.8rem, 2vw, 1.4rem);
+	margin: 0 1.6em;
+	padding: 0.1em 0.5em;
+	transition: all 0.5s ease;
+}
+
+button {
+	font-size: clamp(0.8rem, 2vw, 1.4rem);
+	width: 60%;
+	padding: 0.6em 2em;
+	border-radius: 0.5em;
+	color: var(--fg);
+	background-color: var(--bg);
+	transition: all 0.5s ease;
+}
+
+a:hover,
+button:hover,
+a:focus {
+	color: var(--alert);
+	scale: 1.1;
+	border: 2px solid var(--alert);
+}
+
+/* Header */
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 5svh;
+	padding: 0.7rem 1rem;
+	color: var(--light);
+	background-color: var(--main);
+}
+
+.logo {
+	font-size: clamp(0.8rem, 2vw, 1.4rem);
+	width: 5em;
+	height: 2em;
+	padding: 0.5em 1em;
+	/* margin-left: 2em; */
+	background-color: var(--main);
+}
+
+.nav-container {
+	display: flex;
+}
+
+/* Main */
+.main-container {
+	min-height: 90svh;
+}
+
+/* Footer */
+.footer-container {
+	min-height: 5svh;
+	padding: 0.5rem 0;
+	color: var(--main);
+	background-color: var(--main);
+}
+
+p.footer {
+	font-size: clamp(0.8rem, 2vw, 1.4rem);
+	text-align: center;
+	color: var(--light);
+}
