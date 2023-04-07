@@ -1,14 +1,13 @@
 /* Variables */
 :root {
+	--main: blue;
 	--dark: black;
 	--light: white;
-	--main: blue;
 	--alert: orange;
-	--html: grey;
+	--html: rgb(28, 28, 28);
 }
 
 /* General */
-
 html {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1rem; /* 16px */
@@ -35,21 +34,33 @@ body {
 }
 
 /* Fonts */
-
 h1 {
-	font-size: clamp(1.5rem, 4vw, 3rem);
+	font-size: clamp(1.8rem, 4vw, 3.8rem);
+}
+
+h3 {
+	font-size: clamp(1.2rem, 3vw, 2.8rem);
+	font-style: italic;
+	color: var(--alert);
+	margin-top: 1rem;
+}
+
+a,
+p,
+button,
+.logo,
+p.footer {
+	font-size: clamp(0.8rem, 2vw, 1.8rem);
 }
 
 /* Buttons & Links */
 a {
-	font-size: clamp(0.8rem, 2vw, 1.4rem);
 	margin: 0 1.6em;
 	padding: 0.1em 0.5em;
 	transition: all 0.5s ease;
 }
 
 button {
-	font-size: clamp(0.8rem, 2vw, 1.4rem);
 	width: 60%;
 	padding: 0.6em 2em;
 	border-radius: 0.5em;
@@ -77,13 +88,9 @@ a:focus {
 	background-color: var(--main);
 }
 
-.logo {
-	font-size: clamp(0.8rem, 2vw, 1.4rem);
-	width: 5em;
-	height: 2em;
-	padding: 0.5em 1em;
-	/* margin-left: 2em; */
-	background-color: var(--main);
+.logo img {
+	width: clamp(1.6em, 2.8vw, 2.6em);
+	margin-left: 0.3em;
 }
 
 .nav-container {
@@ -92,7 +99,29 @@ a:focus {
 
 /* Main */
 .main-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	min-height: 90svh;
+}
+
+.main-container p {
+	text-align: center;
+	line-height: 2.5rem;
+	padding: 4rem 5rem;
+}
+
+.logos-container {
+	display: flex;
+	justify-content: center;
+	margin: 3rem auto;
+}
+
+.logos-container img {
+	height: clamp(6em, 12vw, 12em);
+	margin: 2rem;
+	/* border: 2px solid red; */
 }
 
 /* Footer */
@@ -104,7 +133,6 @@ a:focus {
 }
 
 p.footer {
-	font-size: clamp(0.8rem, 2vw, 1.4rem);
 	text-align: center;
 	color: var(--light);
 }
