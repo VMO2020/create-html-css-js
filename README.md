@@ -4,9 +4,11 @@
 
 **create-html-css-js:** A handy tool to generate basic HTML, CSS, and JS files with a responsive header, body, and footer. Perfect for starting new projects with ease. Get your HTML, CSS, and JS foundations in place quickly!
 
-📄 Install > ` npm i create-html-css `
+💾 Install > ` npm i create-html-css `
 
-👨‍💻 All of my projects are available at [https://vmog.net/](https://vmog.net/)  
+🖥  npm [https://www.npmjs.com/package/create-html-css-js](https://www.npmjs.com/package/create-html-css-js)  
+
+⚙️ All of my projects are available at [https://vmog.net/](https://vmog.net/)  
 
 📫 How to reach me **victor.ottati@gmail.com**  
 
