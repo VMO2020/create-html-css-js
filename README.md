@@ -6,6 +6,13 @@
 
 💾 Install > ` npm i create-html-css `
 
+- Open node_modules folder 📁
+- Open the create-html-css-js folder 📁
+- Copy 📝 all the content inside the 📁 create-html-css-js folder
+- Paste✏️ all content outside of the  node_modules folder 📁
+- Delete ✂️  node_modules folder 📁
+- Delete ✂️ all package.json
+
 🖥  **npm** [: https://www.npmjs.com/package/create-html-css-js](https://www.npmjs.com/package/create-html-css-js)  
 
 ⚙️ All of my projects are available at [https://vmog.net/](https://vmog.net/)  
