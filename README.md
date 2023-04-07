@@ -9,9 +9,18 @@
 - Open node_modules folder 📁
 - Open the create-html-css-js folder 📁
 - Copy 📝 all the content inside the 📁 create-html-css-js folder
+
+<p align="center">
+    <img width="400px" src="images/copy.png" alt="copy" />
+</p>  
+
 - Paste✏️ all content outside of the  node_modules folder 📁
 - Delete ✂️  node_modules folder 📁
-- Delete ✂️ all package.json
+- Delete ✂️ all package.json and delete `README.md`file
+
+<p align="center">
+    <img width="400px" src="images/files.png" alt="files" />
+</p>
 
 🖥  **npm** [: https://www.npmjs.com/package/create-html-css-js](https://www.npmjs.com/package/create-html-css-js)  
 
