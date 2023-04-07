@@ -1,6 +1,6 @@
 {
 	"name": "create-html-css-js",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "A handy tool to generate basic HTML, CSS, and JS files with a responsive header, body, and footer. Perfect for starting new projects with ease. Get your HTML, CSS, and JS foundations in place quickly!",
 	"main": "index.html",
 	"scripts": {
