@@ -1,6 +1,6 @@
 {
 	"name": "create-html-css",
-	"version": "1.0.0",
+	"version": "1.0.3",
 	"description": "A handy tool to generate basic HTML, CSS, and JS files with a responsive header, body, and footer. Perfect for starting new projects with ease. Get your HTML, CSS, and JS foundations in place quickly!",
 	"main": "index.html",
 	"scripts": {
@@ -9,10 +9,20 @@
 	"keywords": [
 		"create html, css and javascript",
 		"html",
+		"html5",
 		"css",
+		"css3",
 		"JS",
 		"Javascript"
 	],
 	"author": "Victor M. Ottati",
-	"license": "ISC"
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/VMO2020/create-html-css-js"
+	},
+	"bugs": {
+		"url": "https://github.com/VMO2020/create-html-css-js/issues"
+	},
+	"homepage": "https://vmo2020.github.io/create-html-css-js/index.html"
 }
